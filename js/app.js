@@ -21,7 +21,7 @@ const datajson = function(json){
         let currentDay = `<hr>
             <div>${unixDateToCurrentDate(day.time)}</div>
            <div>Icono: ${day.icon}</div>
-           <div>Temperatura Máxima: ${day.temperatureHigh} and Temperature Minima: ${day.temperatureMin}</>`;
+           <div>Temperatura Máxima: ${day.temperatureHigh} y Temperatura Minima: ${day.temperatureMin}</>`;
         forecast.insertAdjacentHTML('beforeEnd', currentDay);
     });
 };
